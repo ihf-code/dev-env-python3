@@ -1,3 +1,5 @@
+all: build tag push
+
 build:
 	docker build . -t ${IMAGE}:${TAG}
 
